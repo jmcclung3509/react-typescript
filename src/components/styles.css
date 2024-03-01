@@ -30,8 +30,10 @@
     gap: 1rem;
   }
   button.delete{
-    background:linear-gradient(180deg, #F2A391, #ED7D63)
+    background:linear-gradient(180deg, #F2A391, #ED7D63);
     margin: 10px 0;
+    border-radius: 100%;
+    padding: 10px;
   }
   ul{
     list-style: none;

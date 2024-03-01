@@ -20,10 +20,10 @@ const NewTodo: React.FC<NewTodoProps> = props => {
     return (
 <form onSubmit={todoSubmitHandler}>
     <div className="container">
-        <label htmlFor="todo-text">Todo Text</label>
-        <input type="text" id="todo-text" ref={textInputRef}/>
+        <label htmlFor="todo-text">Create a todo list</label>
+        <input type="text" id="todo-text" placeholder='add a todo' ref={textInputRef}/>
         </div>
-        <button type="submit"> ADD TODO</button>
+        <button type="submit"> Add an item</button>
         </form>
     )
 }
